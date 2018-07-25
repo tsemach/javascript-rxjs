@@ -1,0 +1,26 @@
+{
+  "name": "javascript-rxjs",
+  "version": "0.0.1",
+  "description": "a collection of rxjs classes implement generic execution model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsemach/javascript-rxjs.git"
+  },
+  "author": "Tsemach Mizrachi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsemach/javascript-rxjs/issues"
+  },
+  "homepage": "https://github.com/tsemach/javascript-rxjs#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "rxjs": "^6.2.2",
+    "rxjs-compat": "^6.2.2"
+  }
+}
