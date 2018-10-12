@@ -6,4 +6,5 @@ require('babel-register')({
 })
 
 // Import the rest of our application.
+console.log(process.argv[2]);
 module.exports = require(process.argv[2]);
